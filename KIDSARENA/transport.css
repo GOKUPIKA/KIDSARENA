@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    background-color: #d4a276;
+}
+
+
+h1{
+    color:#583101;
+    text-shadow: 2px 2px #ffedd8;
+    padding:2rem 0 3rem 0;
+    text-align: center;
+    font-size: 4rem;    
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    margin: 2rem auto 3rem auto;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 65rem;}
+}
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+p{
+    margin:1rem 0 2rem 0;
+    color: #583101;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px #e7bc91;
+}
+
+.transport-box{        
+    display: inline-block;
+}
+
+.transport{
+    outline: none;
+    border: 0.7rem solid #8b5e34 ;
+    font-size: 1.6rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15rem;
+    display: inline-block;
+    width: 15rem;
+    height: 14rem;
+    text-align: center;
+    margin: 0.7rem;
+    background-color: #f3d5b5;
+}
+
+.transport:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px #6f4518;
+ }
+ 
+ .pressed{
+     box-shadow: 0 0.5rem 0.5rem 0 #DBEDF3;
+     opacity: 0.5;
+ }
+
+/* TRANSPORT */
+
+.a{
+    background-image: url("images/transport/ambulance.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.b{
+    background-image: url("images/transport/bicycle.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.c{
+    background-image: url("images/transport/car.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.h{
+    background-image: url("images/transport/helicopter.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.j{
+    background-image: url("images/transport/fighter-jet.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+
+.m{
+    background-image: url("images/transport/motocycle.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.p{
+    background-image: url("images/transport/police-car.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.s{
+    background-image: url("images/transport/ship.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.t{
+    background-image: url("images/transport/train.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+
+/* TRANSPORT END */
+
+
+

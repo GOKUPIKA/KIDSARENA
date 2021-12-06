@@ -1,0 +1,135 @@
+#body{
+    text-align: center;
+    background-color: #55a630;    
+}
+#heading{
+    color:#006400;
+    text-shadow: 2px 2px #84a59d;
+    padding:2rem 0 2.5rem 0;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    margin: 2rem auto 3rem auto;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 65rem;}
+}
+  
+  /* cursor animations */
+  
+@keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+p{
+    margin:1rem 0 2rem 0;
+    color: #004b23;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 2px 2px #006400;
+}
+
+.fruit-box{        
+    display: inline-block;
+}
+
+.fruit{
+    outline: none;
+    border: 0.7rem solid #aacc00 ;
+    font-size: 1.6rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 5rem;
+    display: inline-block;
+    width: 15rem;
+    height: 14rem;
+    text-align: center;
+    margin: 0.7rem;
+    background-color: #eeef20;
+}
+
+.fruit:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px #004b23;
+ }
+ 
+.pressed{
+     box-shadow: 0 0.5rem 0.5rem 0 #DBEDF3;
+     opacity: 0.5;
+ }
+
+/* TRANSPORT */
+
+.a{
+    background-image: url("images/fruit/apple.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.b{
+    background-image: url("images/fruit/banana.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.g{
+    background-image: url("images/fruit/grape.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.k{
+    background-image: url("images/fruit/kiwi.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.m{
+    background-image: url("images/fruit/mango.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.o{
+    background-image: url("images/fruit/orange.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.p{
+    background-image: url("images/fruit/pineapple.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+
+.s{
+    background-image: url("images/fruit/strawberry.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.w{
+    background-image: url("images/fruit/watermelon.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}

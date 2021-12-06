@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background-color: #9d4edd;
+}
+
+h1{
+    color:#7b2cbf;
+    text-shadow: 2px 2px white;
+    padding:2rem 0 3rem 0;
+    text-align: center;
+    font-size: 4rem;    
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    margin: 2rem auto 3rem auto;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 65rem;}
+}
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+/* ANIMAL SECTION */
+p{
+    margin:1rem 0 2rem 0;
+    color: #10002b;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px #240046;
+}
+.animal-box{        
+    display: inline-block;
+}
+
+.animal{
+    outline: none;
+    border: 0.7rem solid #c77dff;
+    font-size: 1.6rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #f72585;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15rem;
+    display: inline-block;
+    width: 15rem;
+    height: 14rem;
+    text-align: center;
+    margin: 0.7rem;
+    background-color: #e0aaff   ;
+}
+
+.animal:hover{
+   transform: scale(1.1);
+   box-shadow: 0.27rem 0.5rem #240046;
+}
+
+.pressed{
+    box-shadow: 0 0.5rem 0.5rem 0 #DBEDF3;
+    opacity: 0.5;
+}
+.c{
+    background-image: url("images/animal/cow.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.d{
+    background-image: url("images/animal/dog.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.e{
+    background-image: url("images/animal/elephant.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.f{
+    background-image: url("images/animal/frog.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.g{
+    background-image: url("images/animal/goat.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.l{
+    background-image: url("images/animal/lion.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.p{
+    background-image: url("images/animal/panther.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.m{
+    background-image: url("images/animal/monkey.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+
+.w{
+    background-image: url("images/animal/wolf.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}

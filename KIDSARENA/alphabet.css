@@ -1,0 +1,239 @@
+body {
+    text-align: center;
+    background-color: #8fb996;
+}
+
+
+h1{
+    color:#415d43;
+    text-shadow: 2px 2px #a1cca5;
+    padding:2rem 0 3rem 0;
+    text-align: center;
+    font-size: 4rem;    
+    font-family: 'Press Start 2P', cursive;
+    font-weight: lighter;
+    margin: 2rem auto 3rem auto;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+h1 {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 45rem;}
+}
+  
+  /* cursor animations */
+  
+@keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
+}
+
+p{
+    margin:1rem 0 2rem 0;
+    color: #111d13;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px #415d43;
+}
+
+.alphabet-box{        
+    display: inline-block;
+}
+
+.alphabet{
+    outline: none;
+    border: 0.7rem solid #709775 ;
+    font-size: 1.6rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #a1cca5;
+    border-radius: 2rem;
+    display: inline-block;
+    width: 12rem;
+    height: 11rem;
+    text-align: center;
+    margin: 0.7rem;
+    background-color: #a1cca5;
+}
+
+.alphabet:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px #111d13;
+ }
+ 
+.pressed{
+     box-shadow: 0 0.5rem 0.5rem 0 #DBEDF3;
+     opacity: 0.5;
+ }
+
+/* ALPHABET */
+
+.a{
+    background-image: url("images/alphabet/a.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.b{
+    background-image: url("images/alphabet/b.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.c{
+    background-image: url("images/alphabet/c.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.d{
+    background-image: url("images/alphabet/d.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.e{
+    background-image: url("images/alphabet/e.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.f{
+    background-image: url("images/alphabet/f.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.g{
+    background-image: url("images/alphabet/g.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.h{
+    background-image: url("images/alphabet/h.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.i{
+    background-image: url("images/alphabet/i.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.j{
+    background-image: url("images/alphabet/j.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.k{
+    background-image: url("images/alphabet/k.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.l{
+    background-image: url("images/alphabet/l.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.m{
+    background-image: url("images/alphabet/m.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.n{
+    background-image: url("images/alphabet/n.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.o{
+    background-image: url("images/alphabet/o.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.p{
+    background-image: url("images/alphabet/p.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.q{
+    background-image: url("images/alphabet/q.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.r{
+    background-image: url("images/alphabet/r.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.s{
+    background-image: url("images/alphabet/s.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.t{
+    background-image: url("images/alphabet/t.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.u{
+    background-image: url("images/alphabet/u.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.v{
+    background-image: url("images/alphabet/v.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.w{
+    background-image: url("images/alphabet/w.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.x{
+    background-image: url("images/alphabet/x.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.y{
+    background-image: url("images/alphabet/y.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+.z{
+    background-image: url("images/alphabet/z.png");
+    background-repeat: no-repeat;
+    background-size: 6rem 6rem;
+    background-position: center;
+}
+
+/* ALPHABET  END */
